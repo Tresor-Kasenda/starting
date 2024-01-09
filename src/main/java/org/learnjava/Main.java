@@ -5,6 +5,7 @@ import Model.UserModel;
 import java.io.*;
 import java.util.ArrayList;
 
+
 public class Main {
     public static void main(String[] args) throws IOException {
         ArrayList<Integer> list = new ArrayList<>();
@@ -23,7 +24,7 @@ public class Main {
                 .setEmail("tresor@gmail.com")
                 .setPassword("12345678")
                 .setStatus(true);
-        list.add(10);
+
         printUser(userModel);
         System.out.println(list.get(0));
         System.out.println(name);

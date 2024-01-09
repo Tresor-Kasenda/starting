@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: learn_java
+  labels:
+    app: learn_java
+spec:
+  containers:
+    - name: learn_java
+      imagePullPolicy: IfNotPresent
+  restartPolicy: Always
+  
